@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: whitesmoke;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+/* Loader */
+.loader {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background: rgb(255, 255, 255, 0.8);
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: (-50%, -50%);
+}
+
+/* Image Container*/
+
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Media Query: Large SmartPhone */
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 14px;
+    }
+
+    .image-container {
+        margin: 15px;
+    }
+}
