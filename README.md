@@ -11,3 +11,4 @@ Mini JavaScript projects is a repository to excel up JavaScript basics by implem
 | # | Project Name | Project Link |
 |---| ------------ | ------------ |
 1 | Quote Generator | [Source Code](./Quote-Generator) |
+2 | Infinity Scroll | [Source Code](./Infinity-Scroll) |
