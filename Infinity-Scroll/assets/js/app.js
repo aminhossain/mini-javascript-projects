@@ -9,9 +9,9 @@ let totalImages = 0;
 let photos = [];
 
 // API Constrains
-const apiKEY = `unspalsh api key`;
-const count = 10;
-const apiURL = `https://api.unsplash.com/photos/random/?client_id=${apiKEY}&count=${count}`;
+const apiKEY = `unsplash api key`;
+let initialCount = 5;
+const apiURL = `https://api.unsplash.com/photos/random/?client_id=${apiKEY}&count=${initialCount}`;
 
 
 function imageLoaded() {
@@ -19,6 +19,8 @@ function imageLoaded() {
     if(imagesLoaded == totalImages) {
         ready = true;
         loader.hidden = true;
+        updateCount = 15;
+        initialCount = updateCount;
     }
 }
 
@@ -79,6 +81,7 @@ async function getRandomPhotos() {
 window.addEventListener('scroll', () => {
     if((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 1000 && ready) {
         ready = false;
+        loader.hidden = false;
         getRandomPhotos();
     }
 })
