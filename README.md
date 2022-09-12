@@ -10,5 +10,6 @@ Mini JavaScript projects is a repository to excel up JavaScript basics by implem
 ## Contents
 | # | Project Name | Project Link |
 |---| ------------ | ------------ |
-1 | Quote Generator | [Source Code](./Quote-Generator) |
-2 | Infinity Scroll | [Source Code](./Infinity-Scroll) |
+1 | Quote Generator | [Source Code](./quote-generator) |
+2 | Infinity Scroll | [Source Code](./infinity-scroll) |
+3 | Picture-in-Picture | [Source Code](./picture-in-picture) |
