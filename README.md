@@ -8,9 +8,11 @@ Mini JavaScript projects is a repository to excel up JavaScript basics by implem
 </p>
 
 ## Contents
-| # | Project Name | Project Link |
-|---| ------------ | ------------ |
-1 | Quote Generator | [Source Code](./quote-generator) |
-2 | Infinity Scroll | [Source Code](./infinity-scroll) |
-3 | Picture-in-Picture | [Source Code](./picture-in-picture) |
-4 | Joke Teller | [Source Code](./joke-teller) |
+
+| #   | Project Name       | Project Link                        |
+| --- | ------------------ | ----------------------------------- |
+| 1   | Quote Generator    | [Source Code](./quote-generator)    |
+| 2   | Infinity Scroll    | [Source Code](./infinity-scroll)    |
+| 3   | Picture-in-Picture | [Source Code](./picture-in-picture) |
+| 4   | Joke Teller        | [Source Code](./joke-teller)        |
+| 5   | Animated Template  | [Source Code](./animated-template)  |
